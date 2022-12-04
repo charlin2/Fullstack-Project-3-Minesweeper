@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <script src="app.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div><b>Minesweeper</b></div>
+            <div><button>Reset</button></div>
+            <div class="grid"></div>
+            <div>Flags left: <span id='flags-left'></span></div>
+            <div id="win"></div>
+            <div id="loss"></div>
+        </div>
+        <div class="container-instructions">
+            Instructions:
+            <div class="instructions">
+                The goal is to reveal all non-mine tiles.
+            </div>
+            <div class="instructions">
+                The numbers correspond to how many mines are in adjacent and diagonal tiles.
+            </div>
+            <div class="instructions">
+                Left click to reveal a tile, right click to flag a tile.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
