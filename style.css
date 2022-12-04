@@ -78,6 +78,22 @@ div {
     color: blue;
 }
 
+.five {
+    color: rgb(175, 0, 0);
+}
+
+.six {
+    color: teal;
+}
+
+.seven {
+    color: black;
+}
+
+.eight {
+    color: rgb(99, 99, 99);
+}
+
 #loss {
     margin-top: 5px;
     color: #e76346;

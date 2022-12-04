@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 total++;
                             if (i > 11 && !isLeftEdge && squares[i - 1 - width].classList.contains('mine'))
                                 total++;
-                            if (i < 98 && !isRightEdge && squares[i + 1].classList.contains('mine'))
+                            if (i < 99 && !isRightEdge && squares[i + 1].classList.contains('mine'))
                                 total++;
                             if (i < 90 && !isLeftEdge && squares[i - 1 + width].classList.contains('mine'))
                                 total++;
@@ -144,6 +144,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     square.classList.add('three');
                 if (total == 4)
                     square.classList.add('four');
+                if (total == 5)
+                    square.classList.add('five');
+                if (total == 6)
+                    square.classList.add('six');
+                if (total == 7)
+                    square.classList.add('seven');
+                if (total == 8)
+                    square.classList.add('eight');
                 square.innerHTML = total;
                 return;
             }
